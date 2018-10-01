@@ -9,7 +9,6 @@ for woord in woorden:
 		goeie_woord_index = wrongwords.index(woord)
 		print(goeie_woord_index)
 		woorden[index] = goeieworden[goeie_woord_index]
-		# zinlijst.index(wrondwords[index]) = goeieworden[index]
 	index = index + 1
 woorden = " ".join(woorden)
 print(woorden)
