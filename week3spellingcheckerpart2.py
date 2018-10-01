@@ -7,7 +7,6 @@ woorden = zin.split()
 for woord in woorden:
 	if woord in wrongwords:
 		goeie_woord_index = wrongwords.index(woord)
-		print(goeie_woord_index)
 		woorden[index] = goeieworden[goeie_woord_index]
 	index = index + 1
 woorden = " ".join(woorden)
